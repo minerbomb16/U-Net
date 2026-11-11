@@ -1,11 +1,14 @@
 data/*
 !data/imgs/
 !data/masks/
+!data/test/
 data/imgs/*
 !data/imgs/.keep
 data/masks/*
 !data/masks/.keep
+data/test/*
+!data/test/.keep
 
-unet_carvana.pth
+unet_carvana*.pth
 .ipynb_checkpoints/
 __pycache__/
